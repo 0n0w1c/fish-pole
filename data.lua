@@ -49,8 +49,6 @@ fish_pole.connection_points =
       }
     }
 
---		order = "a[energy]-bb[medium-electric-pole]",
-
 data:extend({
 	{
 		type = "item",
