@@ -4,14 +4,6 @@ local effects =
       recipe = "fish-pole"
   }
 
--- insert the recipe effect to unlock
-if mods['cargo-ships'] then
-    table.insert(data.raw['technology']['oversea-energy-distribution'].effects, effects)
-    data.raw['recipe']['floating-electric-pole'].subgroup = 'energy-pipe-distribution'
-else
-    table.insert(data.raw['technology']['electric-energy-distribution-1'].effects, effects)
-end
-
 local fish_pole=table.deepcopy(data.raw["electric-pole"]["big-electric-pole"])
 
 fish_pole.name = "fish-pole"
