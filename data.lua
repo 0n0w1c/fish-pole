@@ -1,11 +1,10 @@
--- fish_pole.lua
-
 local effects =
   {
       type = "unlock-recipe",
       recipe = "fish-pole"
   }
 
+-- insert the recipe effect to unlock
 if mods['cargo-ships'] then
     table.insert(data.raw['technology']['oversea-energy-distribution'].effects, effects)
     data.raw['recipe']['floating-electric-pole'].subgroup = 'energy-pipe-distribution'
@@ -20,7 +19,6 @@ fish_pole.icon = data.raw["capsule"]["raw-fish"].icon
 fish_pole.icon_mipmaps = 0
 fish_pole.minable = {mining_time = 0.5, result = "fish-pole"}
 fish_pole.drawing_box = {{-0.5, -0.5}, {0.5, 0.5}}
--- LightedPolesPlus ignores electric-poles without wires
 --fish_pole.draw_copper_wires=false
 --fish_pole.draw_circuit_wires=false
 fish_pole.collision_mask = {"ground-tile", "colliding-with-tiles-only"}
