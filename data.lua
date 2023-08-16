@@ -1,9 +1,3 @@
-local effects =
-  {
-      type = "unlock-recipe",
-      recipe = "fish-pole"
-  }
-
 local fish_pole=table.deepcopy(data.raw["electric-pole"]["big-electric-pole"])
 
 fish_pole.name = "fish-pole"
@@ -11,8 +5,8 @@ fish_pole.icon = data.raw["capsule"]["raw-fish"].icon
 fish_pole.icon_mipmaps = 0
 fish_pole.minable = {mining_time = 0.5, result = "fish-pole"}
 fish_pole.drawing_box = {{-0.5, -0.5}, {0.5, 0.5}}
---fish_pole.draw_copper_wires=false
---fish_pole.draw_circuit_wires=false
+fish_pole.draw_copper_wires=false
+fish_pole.draw_circuit_wires=false
 fish_pole.collision_mask = {"ground-tile", "colliding-with-tiles-only"}
 
 fish_pole.pictures =
