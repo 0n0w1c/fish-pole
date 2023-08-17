@@ -8,7 +8,6 @@ fish_pole.drawing_box = {{-0.5, -0.5}, {0.5, 0.5}}
 fish_pole.draw_copper_wires=false
 fish_pole.draw_circuit_wires=false
 fish_pole.collision_mask = {"ground-tile", "colliding-with-tiles-only"}
-fish_pole.scale=0.5
 fish_pole.pictures =
     {
       layers =
