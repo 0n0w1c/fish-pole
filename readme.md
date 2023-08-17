@@ -1,4 +1,4 @@
-### Fish Pole
+## Fish Pole
 
 A Factorio mod that adds an electrical pole placeable on water.
 
