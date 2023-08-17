@@ -6,7 +6,7 @@
     "factorio_version": "1.1",
     "dependencies": [
         "base >= 1.1",
-        "(?) IndustrialRevolution3 >= 3.1.5"
+        "(?) IndustrialRevolution3"
     ],
     "description": "Underwater big power pole, looks like a fish"
 }
