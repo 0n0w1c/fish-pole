@@ -2,11 +2,11 @@
 
 Factorio mod that adds a big electrical pole, placeable under the water.
 
-Think electrical poles over water seems odd or maybe they are an obsticle?
-Wish there was an underwater electical cable to span bodies of water?
-With these poles your water craft are unimpeded.
+Think electrical poles over water seems odd or maybe they are an obstical? //
+Wish there was an underwater electical cable to span bodies of water? //
+With these poles your water ways are unimpeded.
 
-Once placed, it appears as a swimming fish, but unlike a  fish, it does not move.
+Once placed, it appears as a swimming fish, but unlike a fish, it does not move.
 
 Wire connections are hidden by default, startup setting to make them visable.
 
