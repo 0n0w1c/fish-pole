@@ -4,10 +4,16 @@ fish_pole.name = "fish-pole"
 fish_pole.icon =  "__fish-pole__/graphics/icons/fish-pole.png"
 fish_pole.icon_mipmaps = 0
 fish_pole.minable = {mining_time = 0.5, result = "fish-pole"}
-fish_pole.drawing_box = {{-0.5, -0.5}, {0.5, 0.5}}
-fish_pole.draw_copper_wires=false
-fish_pole.draw_circuit_wires=false
+fish_pole.selection_box = {{-0.4, -0.4}, {0.4, 0.4}}
+fish_pole.drawing_box = {{0.0, 0.0}, {0.0, 0.0}}
+fish_pole.collision_box = {{0.0, 0.0}, {0.0, 0.0}}
 fish_pole.collision_mask = {"ground-tile", "colliding-with-tiles-only"}
+
+if not settings.startup["show_wire_conenctions"].value then
+  fish_pole.draw_copper_wires=false
+  fish_pole.draw_circuit_wires=false
+end
+
 fish_pole.pictures =
     {
       layers =
@@ -35,15 +41,15 @@ fish_pole.connection_points =
       {
         shadow =
         {
-          copper = util.by_pixel_hr(0, 0),
+          copper = util.by_pixel_hr(6, 0),
           red = util.by_pixel_hr(0, 0),
-          green = util.by_pixel_hr(0, 0)
+          green = util.by_pixel_hr(-6, 0)
         },
         wire =
         {
-          copper = util.by_pixel_hr(0, 0),
+          copper = util.by_pixel_hr(6, 0),
           red = util.by_pixel_hr(0, 0),
-          green = util.by_pixel_hr(0, 0)
+          green = util.by_pixel_hr(-6, 0)
         }
       }
     }
