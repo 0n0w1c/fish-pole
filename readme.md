@@ -8,7 +8,7 @@ With these poles your water ways are unimpeded.
 
 The pole appears as a swimming fish, but unlike a fish, it does not move.
 
-Wire connections are hidden by default, startup setting to make them visable.
+Wire connections are hidden by default, startup setting to make them visible.
 
 ### Compatibility
 Should work with most other mods, depends on the amount of electrical pole manipulation.
