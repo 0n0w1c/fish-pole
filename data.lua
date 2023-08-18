@@ -14,6 +14,9 @@ if not settings.startup["show_wire_conenctions"].value then
   fish_pole.draw_circuit_wires=false
 end
 
+fish_pole.max_wire_distance = settings.startup["wire_reach"].value
+fish_pole.supply_area_distance = settings.startup["supply_area"].value
+
 fish_pole.pictures =
     {
       layers =
