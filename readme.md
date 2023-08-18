@@ -10,7 +10,7 @@ With these poles, your waterways will be unimpeded.
 The pole appears as a swimming fish, but unlike a fish, it does not move.
 
 Wire connections are hidden by default, startup setting to make them visible.
-Startup settings for maxiumum wire reach and supply area, defaults set to vanilla big electric pole.
+Startup settings for maxiumum wire reach and supply width, defaults set to vanilla big electric pole.
 
 ### Compatibility
 Should work with most other mods, depending on the amount of electric pole manipulation.

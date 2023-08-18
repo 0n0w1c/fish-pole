@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 18.8.2023
+  Changes:
+    - Added more details for the startup settings
+    - Startup setting for supply area changed to width (4 = 4x4)
+  Fixes:
+    - Startup setting for wire reach not set correctly
+
+---------------------------------------------------------------------------------------------------
 Version: 0.1.3
 Date: 18.8.2023
   Changes:

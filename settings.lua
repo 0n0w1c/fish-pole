@@ -12,18 +12,18 @@ data:extend({
       name = 'wire_reach',
       setting_type = 'startup',
       default_value = 30,
-      minimum_value = 2,
+      minimum_value = 0,
       maximum_value = 64,
       hidden = false,
       order = 'b'
    },
    {
       type = 'double-setting',
-      name = 'supply_area',
+      name = 'supply_width',
       setting_type = 'startup',
-      default_value = 2,
-      minimum_value = 2,
-      maximum_value = 64,
+      default_value = 4,
+      minimum_value = 0,
+      maximum_value = 128,
       hidden = false,
       order = 'c'
    },
