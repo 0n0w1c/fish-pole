@@ -9,6 +9,6 @@ Date: 17.8.2023
 Version: 0.1.1
 Date: 17.8.2023
   Changes:
-    - Added PoleRanger as an optional dependency
+    - Add PoleRanger as an optional dependency
   Fixes:
     - None yet
