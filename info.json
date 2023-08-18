@@ -8,5 +8,5 @@
         "base >= 1.1",
         "? PoleRanger"
     ],
-    "description": "Underwater big power pole, looks like a swimming fish"
+    "description": "Underwater big electric pole, looks like a swimming fish"
 }
