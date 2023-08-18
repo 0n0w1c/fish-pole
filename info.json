@@ -1,12 +1,12 @@
 {
     "name": "fish-pole",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "title": "Fish Pole",
     "author": "0n0w1c",
     "factorio_version": "1.1",
     "dependencies": [
         "base >= 1.1",
-        "(?) IndustrialRevolution3"
+        "? PoleRanger"
     ],
     "description": "Underwater big power pole, looks like a swimming fish"
 }

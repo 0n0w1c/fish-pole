@@ -12,5 +12,6 @@ Wire connections are hidden by default, startup setting to make them visible.
 
 ### Compatibility
 Should work with most other mods, depends on the amount of electrical pole manipulation.
+Adjustments made to the big electric pole via the PoleRanger mod, apply to the fish pole.
 
-* [IndustrialRevolution3](https://mods.factorio.com/mod/IndustrialRevolution3)
+* [PoleRanger](https://mods.factorio.com/mod/PoleRanger)
