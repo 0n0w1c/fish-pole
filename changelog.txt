@@ -1,10 +1,11 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.1.0
+Version: 0.1.2
 Date: 17.8.2023
   Changes:
-    - Initial release
+    - Misc minor changes: typos, wording, etc.
   Fixes:
-    - None yet
+    - Adjusted startup setting description
+
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.1
 Date: 17.8.2023
@@ -12,3 +13,11 @@ Date: 17.8.2023
     - Added PoleRanger as an optional dependency
   Fixes:
     - Fixed startup setting description
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 17.8.2023
+  Changes:
+    - Initial release
+  Fixes:
+    - None yet
