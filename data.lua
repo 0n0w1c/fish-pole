@@ -69,7 +69,7 @@ data:extend({
 		type = "recipe",
 		name = "fish-pole",
 		enabled = "false",
-		ingredients = 
+		ingredients =
 		{
 			{"big-electric-pole", 1},
 			{"raw-fish", 1}
