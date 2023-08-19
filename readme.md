@@ -5,7 +5,7 @@ Factorio mod that adds a big electric pole, placeable under the water.
 Do you think electric poles on water seem out of place or maybe they are an obstacle?
 Do you build landfill lily pad islands or floating electric poles?
 Have you wished there was an underwater electric cable to span bodies of water?
-With these poles, your waterways will be unimpeded.
+With these poles, your waterways will be unimpeded and collision free.
 
 The pole appears as a swimming fish, but unlike a fish, it does not move.
 

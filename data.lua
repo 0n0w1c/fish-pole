@@ -44,15 +44,15 @@ fish_pole.connection_points =
       {
         shadow =
         {
-          copper = util.by_pixel_hr(6, 6),
-          red = util.by_pixel_hr(0, 0),
-          green = util.by_pixel_hr(-6, -6)
+          copper = util.by_pixel_hr(0, 0),
+          red = util.by_pixel_hr(4, 4),
+          green = util.by_pixel_hr(-4, -4)
         },
         wire =
         {
-          copper = util.by_pixel_hr(6, 6),
-          red = util.by_pixel_hr(0, 0),
-          green = util.by_pixel_hr(-6, -6)
+          copper = util.by_pixel_hr(0, 0),
+          red = util.by_pixel_hr(4, 4),
+          green = util.by_pixel_hr(-4, -4)
         }
       }
     }
