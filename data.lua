@@ -19,24 +19,24 @@ fish_pole.supply_area_distance = settings.startup["supply_width"].value / 2
 
 fish_pole.pictures =
 {
-    layers =
-    {
-        {
-            filename = "__base__/graphics/entity/fish/fish-1.png",
-            priority = "low",
-            width = 22,
-            height = 36,
-            direction_count = 1,
-            hr_version =
-            {
-                filename = "__base__/graphics/entity/fish/fish-2.png",
-                priority = "low",
-                width = 32,
-                height = 32,
-                direction_count = 1
-            }
-        }
-    }
+	layers =
+	{
+		{
+			filename = "__base__/graphics/entity/fish/fish-1.png",
+			priority = "low",
+			width = 22,
+			height = 36,
+			direction_count = 1,
+			hr_version =
+			{
+				filename = "__base__/graphics/entity/fish/fish-2.png",
+				priority = "low",
+				width = 32,
+				height = 32,
+				direction_count = 1
+			}
+		}
+	}
 }
 
 fish_pole.connection_points =
