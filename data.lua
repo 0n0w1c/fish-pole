@@ -4,6 +4,7 @@ fish_pole.name = "fish-pole"
 fish_pole.icon =  "__fish-pole__/graphics/icons/fish-pole.png"
 fish_pole.icon_mipmaps = 0
 fish_pole.minable = {mining_time = 0.5, result = "fish-pole-placer"}
+fish_pole.selection_box = {{-0.4, -0.4}, {0.4, 0.4}}
 fish_pole.collision_mask = {"ground-tile", "colliding-with-tiles-only"}
 
 fish_pole.placeable_by = {item = "fish-pole-placer", count = 1}
