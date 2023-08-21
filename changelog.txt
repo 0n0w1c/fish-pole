@@ -1,12 +1,4 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.0.0
-Date: 18.8.2023
-  Changes:
-    - Wire reach is now displayed when placing the fish pole.
-  Fixes:
-    - Blueprints not working properly
-
----------------------------------------------------------------------------------------------------
 Version: 0.1.6
 Date: 18.8.2023
   Changes:
@@ -14,11 +6,12 @@ Date: 18.8.2023
   Fixes:
     - None
 
+
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.5
 Date: 18.8.2023
   Changes:
-    - Added IR3 as a hidden optional dependency
+    - Added IR3 as an optional dependency
   Fixes:
     - None
 
