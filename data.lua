@@ -18,9 +18,9 @@ fish_pole.maximum_wire_distance = settings.startup["wire_reach"].value
 fish_pole.supply_area_distance = settings.startup["supply_width"].value / 2
 
 fish_pole.pictures =
-{
-    layers =
     {
+      layers =
+      {
         {
             filename = "__base__/graphics/entity/fish/fish-1.png",
             priority = "low",
@@ -36,12 +36,12 @@ fish_pole.pictures =
                 direction_count = 1
             }
         }
+	    }
     }
-}
 
 fish_pole.connection_points =
-{
     {
+      {
         shadow =
         {
           copper = util.by_pixel_hr(0, 0),
@@ -54,31 +54,31 @@ fish_pole.connection_points =
           red = util.by_pixel_hr(4, 4),
           green = util.by_pixel_hr(-4, -4)
         }
+      }
     }
-}
 
 data:extend({
-{
-	type = "item",
-	name = "fish-pole",
-	icon = fish_pole.icon,
-	icon_size = 64,
-	subgroup = "energy-pipe-distribution",
-	order = "b",
-	stack_size = 50
-},
-{
-	type = "recipe",
-	name = "fish-pole",
-	enabled = "true",
-	hidden = "true",
-	ingredients =
-	{
-		{"big-electric-pole", 1},
-		{"raw-fish", 1}
+  {
+		type = "item",
+		name = "fish-pole",
+		icon = fish_pole.icon,
+		icon_size = 64,
+		subgroup = "energy-pipe-distribution",
+		order = "b",
+		stack_size = 50
 	},
-	result = "fish-pole"
-},
+  {
+		type = "recipe",
+		name = "fish-pole",
+		enabled = "true",
+    	hidden = "true",
+		ingredients =
+		{
+			{"big-electric-pole", 1},
+			{"raw-fish", 1}
+		},
+		result = "fish-pole"
+	},
 	fish_pole,
 })
 
