@@ -89,26 +89,26 @@ fish_pole_placer.draw_copper_wires=true
 fish_pole_placer.draw_circuit_wires=true
 
 data:extend({
+{
+	type = "item",
+	name = "fish-pole-placer",
+	icon = fish_pole_placer.icon,
+	icon_size = 64,
+	subgroup = "energy-pipe-distribution",
+	order = "b",
+	place_result = "fish-pole-placer",
+	stack_size = 50
+},
+{
+	type = "recipe",
+	name = "fish-pole-placer",
+	enabled = "false",
+	ingredients =
 	{
-		type = "item",
-		name = "fish-pole-placer",
-		icon = fish_pole_placer.icon,
-		icon_size = 64,
-		subgroup = "energy-pipe-distribution",
-		order = "b",
-		place_result = "fish-pole-placer",
-		stack_size = 50
+		{"big-electric-pole", 1},
+		{"raw-fish", 1}
 	},
-	{
-		type = "recipe",
-		name = "fish-pole-placer",
-		enabled = "false",
-		ingredients =
-		{
-			{"big-electric-pole", 1},
-			{"raw-fish", 1}
-		},
-		result = "fish-pole-placer"
-	},
-	fish_pole_placer,
+	result = "fish-pole-placer"
+},
+fish_pole_placer,
 })
