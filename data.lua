@@ -10,8 +10,8 @@ fish_pole.collision_mask = {"ground-tile", "colliding-with-tiles-only"}
 fish_pole.placeable_by = {item = "fish-pole-placer", count = 1}
 
 if not settings.startup["show_wire_conenctions"].value then
-	fish_pole.draw_copper_wires=false
-	fish_pole.draw_circuit_wires=false
+  fish_pole.draw_copper_wires=false
+  fish_pole.draw_circuit_wires=false
 end
 
 fish_pole.maximum_wire_distance = settings.startup["wire_reach"].value
@@ -79,7 +79,7 @@ data:extend({
 	},
 	result = "fish-pole"
 },
-fish_pole,
+	fish_pole,
 })
 
 local fish_pole_placer = table.deepcopy(data.raw["electric-pole"]["fish-pole"])
