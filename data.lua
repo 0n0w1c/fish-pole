@@ -3,11 +3,11 @@ local fish_pole=table.deepcopy(data.raw["electric-pole"]["big-electric-pole"])
 fish_pole.name = "fish-pole"
 fish_pole.icon =  "__fish-pole__/graphics/icons/fish-pole.png"
 fish_pole.icon_mipmaps = 0
-fish_pole.minable = {mining_time = 0.5, result = "fish-pole"}
+fish_pole.minable = {mining_time = 0.5, result = "fish-pole-placer"}
 fish_pole.selection_box = {{-0.4, -0.4}, {0.4, 0.4}}
-fish_pole.drawing_box = {{0.0, 0.0}, {0.0, 0.0}}
-fish_pole.collision_box = {{0.0, 0.0}, {0.0, 0.0}}
 fish_pole.collision_mask = {"ground-tile", "colliding-with-tiles-only"}
+
+fish_pole.placeable_by = {item = "fish-pole-placer", count = 1}
 
 if not settings.startup["show_wire_conenctions"].value then
   fish_pole.draw_copper_wires=false
@@ -58,20 +58,20 @@ fish_pole.connection_points =
     }
 
 data:extend({
-	{
+  {
 		type = "item",
 		name = "fish-pole",
 		icon = fish_pole.icon,
 		icon_size = 64,
 		subgroup = "energy-pipe-distribution",
 		order = "b",
-		place_result = "fish-pole",
 		stack_size = 50
 	},
-	{
+  {
 		type = "recipe",
 		name = "fish-pole",
-		enabled = "false",
+		enabled = "true",
+    	hidden = "true",
 		ingredients =
 		{
 			{"big-electric-pole", 1},
@@ -80,4 +80,35 @@ data:extend({
 		result = "fish-pole"
 	},
 	fish_pole,
+})
+
+local fish_pole_placer = table.deepcopy(data.raw["electric-pole"]["fish-pole"])
+
+fish_pole_placer.name = "fish-pole-placer"
+fish_pole_placer.draw_copper_wires=true
+fish_pole_placer.draw_circuit_wires=true
+
+data:extend({
+	{
+		type = "item",
+		name = "fish-pole-placer",
+		icon = fish_pole_placer.icon,
+		icon_size = 64,
+		subgroup = "energy-pipe-distribution",
+		order = "b",
+		place_result = "fish-pole-placer",
+		stack_size = 50
+	},
+	{
+		type = "recipe",
+		name = "fish-pole-placer",
+		enabled = "false",
+		ingredients =
+		{
+			{"big-electric-pole", 1},
+			{"raw-fish", 1}
+		},
+		result = "fish-pole-placer"
+	},
+	fish_pole_placer,
 })
