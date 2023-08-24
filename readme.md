@@ -1,6 +1,6 @@
 ![Fish Pole](/underwater_wire.png)
 
-## Fish Pole - Underwater poles to construct underwater electric cables.
+## Fish Pole - Construct underwater electric and circuit network cables
 
 Do you think electric poles on water seem out of place or maybe they are an obstacle?
 Do you build landfill lily pad islands or floating electric poles?
