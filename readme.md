@@ -15,12 +15,12 @@ Startup settings for wire reach and supply area, defaults set to vanilla big ele
 ### Compatibility
 Should work with most other mods, depending on the amount of electric pole manipulation.
 
-[Cargo Ships](https://mods.factorio.com/mod/cargo-ships)
+[Cargo Ships](https://mods.factorio.com/mod/cargo-ships)  
 
-[Underwater Pipes](https://mods.factorio.com/mod/underwater-pipes)
+[Underwater Pipes](https://mods.factorio.com/mod/underwater-pipes)  
 
-[SLP-underground pole](https://mods.factorio.com/mod/slp-underground-poles)
+[SLP-underground pole](https://mods.factorio.com/mod/slp-underground-poles)  
 
-or
+or  
 
-[Underground pole SLP FIX](https://mods.factorio.com/mod/slp-underground-poles-fix)
+[Underground pole SLP FIX](https://mods.factorio.com/mod/slp-underground-poles-fix)  
