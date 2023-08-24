@@ -1,4 +1,4 @@
-![Fish Pole](/thumbnail.png)
+![Fish Pole](/underwater_wire.png)
 
 ## Fish Pole
 
