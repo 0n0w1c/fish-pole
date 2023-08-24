@@ -15,7 +15,7 @@ Startup settings for wire reach and supply area, defaults set to vanilla big ele
 ### Compatibility
 Should work with most other mods, depending on the amount of electric pole manipulation.
 
-[Cargo Ships](https://mods.factorio.com/mod/underwater-pipes)
+[Cargo Ships](https://mods.factorio.com/mod/cargo-ships)
 
 [Underwater Pipes](https://mods.factorio.com/mod/underwater-pipes)
 
