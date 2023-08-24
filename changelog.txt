@@ -1,10 +1,19 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 23.8.2023
+  Changes:
+    - Updated readme.md
+    - Updated past changelog entries for clearity
+  Fixes:
+    - None
+
+---------------------------------------------------------------------------------------------------
 Version: 1.0.2
 Date: 18.8.2023
   Changes:
     - Fish poles are now 2x2 entities
   Fixes:
-    - Fixed blueprint issue
+    - Blueprints solely containing fish poles now work properly
 
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.6
@@ -18,7 +27,7 @@ Date: 18.8.2023
 Version: 0.1.5
 Date: 18.8.2023
   Changes:
-    - Added IR3 as an optional dependency
+    - Added IR3 as a hidden optional dependency
   Fixes:
     - None
 
