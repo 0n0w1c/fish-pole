@@ -1,3 +1,5 @@
+![Fish Pole](/thumbnail.png)
+
 ## Fish Pole
 
 Factorio mod that adds a big electric pole, placeable under the water.
@@ -14,3 +16,4 @@ Startup settings for wire reach and supply area, defaults set to vanilla big ele
 
 ### Compatibility
 Should work with most other mods, depending on the amount of electric pole manipulation.
+
