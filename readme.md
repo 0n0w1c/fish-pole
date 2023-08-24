@@ -1,4 +1,4 @@
-![Fish Pole](https://github.com/0n0w1c/fish-pole/underwater_wire.png)
+![Fish Pole](https://github.com/0n0w1c/fish-pole/blob/main/underwater_wire.png)
 
 ## Fish Pole
 
