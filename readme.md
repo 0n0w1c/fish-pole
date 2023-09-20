@@ -2,7 +2,7 @@
 
 ## Fish Pole - Construct underwater electric and circuit network cables
 
-Do you think electric poles on water seem out of place or maybe they are an obstacle?
+Do electric poles on water seem out of place or maybe they are an obstacle?
 Do you build landfill lily pad islands or floating electric poles?
 Have you wished there was an underwater electric cable to span bodies of water?
 With these poles, your waterways will be unimpeded and collision free.

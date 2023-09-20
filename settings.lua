@@ -1,7 +1,7 @@
 data:extend({
     {
        type = 'bool-setting',
-       name = 'show_wire_conenctions',
+       name = 'show_wire_connections',
        setting_type = 'startup',
        default_value = false,
        hidden = false,
@@ -26,5 +26,5 @@ data:extend({
       maximum_value = 128,
       hidden = false,
       order = 'c'
-   },
+   }
 })
