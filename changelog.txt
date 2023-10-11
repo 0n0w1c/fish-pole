@@ -1,4 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 11.10.2023
+  Changes:
+    - Removed big electric pole effects upon destruction
+    - Added 100% damage resistances
+    - Updated readme.md
+  Fixes:
+    - None
+
+---------------------------------------------------------------------------------------------------
 Version: 1.0.4
 Date: 19.9.2023
   Changes:

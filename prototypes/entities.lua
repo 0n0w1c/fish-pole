@@ -1,6 +1,7 @@
 local fish_pole=table.deepcopy(data.raw["electric-pole"]["big-electric-pole"])
 
 fish_pole.name = "fish-pole"
+fish_pole.icon = "__fish-pole__/graphics/icons/fish-pole.png"
 fish_pole.icon_mipmaps = 0
 fish_pole.minable = {mining_time = 0.5, result = "fish-pole"}
 fish_pole.collision_mask = {"ground-tile", "colliding-with-tiles-only"}
@@ -60,5 +61,33 @@ fish_pole.connection_points =
     fish_pole.dying_explosion = nil
     fish_pole.corpse = nil
     fish_pole.damaged_trigger_effect = nil
+    fish_pole.water_reflection = nil
+
+    fish_pole.resistances =
+    {
+        {
+            type = "physical",
+            percent = 100
+        },
+        {
+            type = "explosion",
+            percent = 100
+        },
+        {
+            type = "acid",
+            percent = 100
+        },
+        {
+            type = "fire",
+            percent = 100
+        },
+        {
+            type = "impact",
+            percent = 100
+        }
+
+    }
+
+
 
 data:extend { fish_pole }
