@@ -57,4 +57,8 @@ fish_pole.connection_points =
       }
     }
 
+    fish_pole.dying_explosion = nil
+    fish_pole.corpse = nil
+    fish_pole.damaged_trigger_effect = nil
+
 data:extend { fish_pole }
