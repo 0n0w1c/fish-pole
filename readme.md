@@ -17,7 +17,7 @@ Should work with most other mods, depending on the amount of electric pole manip
 
 [Cargo Ships](https://mods.factorio.com/mod/cargo-ships)  
 [Hovercrafts](https://mods.factorio.com/mod/Hovercrafts)  
-[Inbuilt Lighting](https://mods.factorio.com/mod/inbuilt_lighting) 
-[Lighted Electric Poles +](https://mods.factorio.com/mod/LightedPolesPlus) 
+[Inbuilt Lighting](https://mods.factorio.com/mod/inbuilt_lighting)  
+[Lighted Electric Poles +](https://mods.factorio.com/mod/LightedPolesPlus)  
 [Underwater Pipes](https://mods.factorio.com/mod/underwater-pipes)  
 [SLP-underground pole](https://mods.factorio.com/mod/slp-underground-poles) or [Underground pole SLP FIX](https://mods.factorio.com/mod/slp-underground-poles-fix) 
