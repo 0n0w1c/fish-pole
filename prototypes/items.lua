@@ -5,7 +5,7 @@ local fish_pole =
     icon = "__fish-pole__/graphics/icons/fish-pole.png",
     icon_size = 64,
     subgroup = "energy-pipe-distribution",
-    order = data.raw["electric-pole"]["big-electric-pole"].order .. "z",
+    order = data.raw["item"]["big-electric-pole"].order .. "z",
     place_result = "fish-pole",
     stack_size = 50
 }
