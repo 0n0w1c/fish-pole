@@ -1,106 +1,94 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.7
-Date: 15.04.2024
+Date: 15. 04. 2024
   Changes:
     - Removed IndustrialRevolution3 as an optional dependency
   Fixes:
     - None
-
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.6
-Date: 15.04.2024
+Date: 15. 04. 2024
   Changes:
     - Change item sort order, now after big electric pole
   Fixes:
     - None
-
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.5
-Date: 11.10.2023
+Date: 11. 10. 2023
   Changes:
     - Removed big electric pole effects upon destruction
     - Added 100% damage resistances
     - Updated readme.md
   Fixes:
     - None
-
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.4
-Date: 19.9.2023
+Date: 19. 09. 2023
   Changes:
     - Refactored because it bugged me
   Fixes:
     - None
-
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.3
-Date: 23.8.2023
+Date: 23. 08. 2023
   Changes:
     - Updated readme.md
     - Updated past changelog entries for clearity
   Fixes:
     - None
-
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.2
-Date: 18.8.2023
+Date: 18. 08. 2023
   Changes:
     - Fish poles are now 2x2 entities
   Fixes:
     - Blueprints solely containing fish poles now work properly
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.6
-Date: 18.8.2023
+Date: 18. 08. 2023
   Changes:
     - Adjusted wire connection points for improved wire visibility
   Fixes:
     - None
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.5
-Date: 18.8.2023
+Date: 18. 08. 2023
   Changes:
     - Added IR3 as a hidden optional dependency
   Fixes:
     - None
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.4
-Date: 18.8.2023
+Date: 18. 08. 2023
   Changes:
     - Added more details for the startup settings
     - Startup setting for supply area changed to width (4 = 4x4)
   Fixes:
     - Startup setting for wire reach not set correctly
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.3
-Date: 18.8.2023
+Date: 18. 08. 2023
   Changes:
     - Added startup settings for wire reach and supply area
   Fixes:
     - None
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.2
-Date: 17.8.2023
+Date: 17. 08. 2023
   Changes:
     - Misc minor changes: typos, wording, etc.
   Fixes:
     - Adjusted startup setting description
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.1
-Date: 17.8.2023
+Date: 17. 08. 2023
   Changes:
     - Added PoleRanger as an optional dependency
   Fixes:
     - Fixed startup setting description
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.0
-Date: 17.8.2023
+Date: 17. 08. 2023
   Changes:
     - Initial release
   Fixes:
