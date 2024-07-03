@@ -21,4 +21,4 @@ Should work with most other mods, depending on the amount of electric pole manip
 [Lighted Electric Poles +](https://mods.factorio.com/mod/LightedPolesPlus)  
 [Underwater Pipes](https://mods.factorio.com/mod/underwater-pipes)  
 [Underground Energy Distribution](https://mods.factorio.com/mod/underground-energy-distribution)  
-[SLP-underground pole](https://mods.factorio.com/mod/slp-underground-poles) or [Underground pole SLP FIX](https://mods.factorio.com/mod/slp-underground-poles-fix)  
+[Floating Lamps](https://mods.factorio.com/mod/floating-lamps)
